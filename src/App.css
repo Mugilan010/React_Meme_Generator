@@ -1,0 +1,100 @@
+
+
+/* Meme generator app styling */
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0 20%;
+  background-image: linear-gradient(rgb(29, 3, 53),rgb(132, 0, 255));
+}
+
+main{
+  padding: 36px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background-color: blueviolet;
+  color: white;
+  padding:20px;
+}
+
+.header--image{
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header--title{
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+.header--project{
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.div{
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.div--input{
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.div--button{
+  grid-column: 1 / -1;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.meme--image{
+  max-width: 600px;
+  max-height: 600px;
+  min-width: 600px;
+  min-height: 600px;
+  padding-top: 20px;
+  
+  
+}
+
+.img-con{
+  display: flex;
+  justify-content: center;
+
+}
+
+.meme-text{
+  color: rgb(219, 243, 0);
+  font-size: 50px;
+  text-decoration: 2px solid black;
+  text-shadow:2px 4px 4px black;
+ 
+
+}
+
+.top{
+  position: absolute;
+  top:200px;
+  left: 500px;
+}
+
+.bottom{
+  position: absolute;
+  top:500px;
+  left: 500px;
+}
+
+
+
